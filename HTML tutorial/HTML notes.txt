@@ -90,3 +90,8 @@ ansa
  <div>is block
  <span>it is like div ,it is inline
  we can change inline elements to block ements and viseversa in css
+
+ id and classes:
+ id which uniquly identify the elements 
+ where as one elemnt can have multiple  classes ,it can be done by simply giving space and write the next
+ >to reference in css for class we use .(dot)for id we use #
