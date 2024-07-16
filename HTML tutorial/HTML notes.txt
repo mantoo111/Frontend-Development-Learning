@@ -1,0 +1,56 @@
+HTML: structure/layout
+CSS:  style
+JS: logic 
+HTML:
+to structure a webpage
+html tags are like container
+<p>....</p> for paragraph
+
+Basic of html page:
+<!DOCTYPE html> tells bowser that you are using html5
+<html lang="en">:it is an attribute which tell more it means that language is english
+<html> rot of an html
+<head>
+this tags tell not to show anything on website but our code should know that
+</head>
+<body>
+this tag show which things are to be displayed
+</body >
+<a>
+this is ancher tag used for links
+<a href ="https://www.google.com/">Google</a>
+</a>
+target="_blank"
+this is used in ancher tag so the link open in new tab syntax is:
+ <a href="https://www.tehzeeb.com/" target="_blank">Open Tehzeeb</a>
+<br/> for the next line
+
+inserting img in html:
+
+syntax:
+<body>
+    <img src="img.png" alt="flower image">    --- alt is used when there is not correct path given by the user or there is no img then alt msg will be displayed
+</body>
+for width and height;
+ <img width="500" src="img.png" alt="flower image">
+TABLES;
+<table
+<tr>stands for table row</tr>
+<th>stands for table heading
+<td>stands for table data
+colspan is an attribute used with <td> like <td colspan="2"> Ansa</td>
+colspan basically merge the cells column wise,2 shows the number of columns
+likewise rowspan is used to merge the rows vertically
+
+CAPTIONS:
+syntax:
+<caption>DETAILS</caption>
+HEADER AND FOOTERS:
+<thead>
+this tag is used for header
+</thead>
+<tfoot>
+this tag is used for footer
+</tfoot>
+
+
