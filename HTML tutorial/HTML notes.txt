@@ -52,6 +52,33 @@ this tag is used for header
 <tfoot>
 this tag is used for footer
 </tfoot>
+ List:
+ >unordered List
+ suntax:
+ <ul>
+<li>
+ansa
+</li>
 
+ </ul>
 
-Learning List:
+ >ordered List
+ syntax:
+ <ol>
+        <li>
+            ansa
+        </li>
+        <li>
+            hassan
+        </li>
+        <li>
+            asma
+        </li>
+    </ol>
+
+ .upper case roman numreals use type="I"
+ .lower case roman numerals use type="i"
+ .arabic numerals use type="1"
+ .lower case alphabetical letter use type="a"
+ upper case alphabetical letters use type="A"   
+ >definition list
