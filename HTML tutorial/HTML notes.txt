@@ -82,3 +82,11 @@ ansa
  .lower case alphabetical letter use type="a"
  upper case alphabetical letters use type="A"   
  >definition list
+ inline and block elements:
+ inline take only that much width which is required
+ whereas block element take full width
+ <p> is block element
+ <a>is inline
+ <div>is block
+ <span>it is like div ,it is inline
+ we can change inline elements to block ements and viseversa in css
