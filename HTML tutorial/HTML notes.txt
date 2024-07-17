@@ -95,3 +95,23 @@ ansa
  id which uniquly identify the elements 
  where as one elemnt can have multiple  classes ,it can be done by simply giving space and write the next
  >to reference in css for class we use .(dot)for id we use #
+
+ audio,video:
+ >attributes for <video>:
+src:specify the path to the video 
+controls:adds video controls,likeplay,pause and volume
+autoplay:automatically starts playing the video when page loads
+loop:repeats the video once it ends
+muted:muted the video by default
+poster:specifies an image to be displayed before the video starts playing
+width and height: speifies the dimenion of the video
+attributes for <audio> tag:
+src:specify the path to the audio
+controls:adds audio controls,like play,pause and volume
+autoplay:automatically starts playing the audio when page loads
+loop:repeats the audio once it ends
+muted:muted the audio by default
+preload:specifies if and how the audio should be loaded when the page loads(auto,metadata,none)
+SVG:it is used for formating the image
+>svg,video,audio are all inline
+IFRAME:it is used to embed the other website in your website
