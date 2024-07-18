@@ -115,3 +115,29 @@ preload:specifies if and how the audio should be loaded when the page loads(auto
 SVG:it is used for formating the image
 >svg,video,audio are all inline
 IFRAME:it is used to embed the other website in your website
+link for further study:https://www.codewithharry.com/tutorial/html-audio-video-tags/
+SEMENTIC TAGS:
+1-header
+nav
+main
+article
+figure
+p 
+section
+footer
+aside
+
+HTML ENTITIES:
+entities are used in html to show tags on website 
+replace < with &lt; and > with &gt;
+using <pre> tag if user give lines in their code then it will be seen on website bec of <pre> tag
+*if you want space in your output you can not get tha with pressing spacebar  as html ignore all the space 
+for that we use &nbsp ,as many  time it is written you will get that much spaces in your output screen
+
+In HTML, entities are used to represent characters that have a special meaning in HTML or that are not easily typed on a keyboard. They begin with an ampersand (&) and end with a semicolon (;). Some common examples include:
+
+&lt; for the less-than symbol (<)
+&gt; for the greater-than symbol (>)
+&amp; for the ampersand symbol (&)
+&quot; for the double quotation mark (" " ")
+&apos; for the single quotation mark (" ' ")
