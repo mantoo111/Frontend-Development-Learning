@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css selector</title>
+<style>
+    div{
+        
+        color: aquamarine;
+        background-color: black;
+    }
+    /*class selector*/
+.red{
+    background-color: blue;
+}
+/*ID selector*/
+#green{
+    color: blue;
+    background-color: aqua;
+}
+/*child selector*/
+div >p {
+   color: blue; 
+   background-color: brown;
+}
+/*descendant selector*/
+div p{
+    color: blue;
+    background-color: brown;
+}
+/*universal selector*/
+*{
+    margin:0;
+    padding:0;
+}
+/*pseudo selector*/
+
+a:visited{
+    color: rgb(1, 1, 0);
+}
+a:link{
+    color: aquamarine;
+}
+a:active{
+background-color: rgb(255, 14, 14);
+}
+a:hover{
+    background-color: yellow;
+}
+</style>
+</head>
+<body>
+    <div class="red">i am a div</div>
+    <div>i am an other div
+        <p>i am a para inside a div</p>
+    </div>
+    <div id="green">i am div of id green</div>
+    <div>
+        <article>
+            <p>i am  an example of descendant selector </p> </article>
+    </div>
+    
+    <a href="https://www.google.com/">Google</a>
+</body>
+</html>

@@ -141,7 +141,16 @@ In HTML, entities are used to represent characters that have a special meaning i
 &amp; for the ampersand symbol (&)
 &quot; for the double quotation mark (" " ")
 &apos; for the single quotation mark (" ' ")
+
+
+                           ..........CSS............          
  3 ways to add CSS in html:
  1-inline
  2-internal(can be added by using <style>tag in html)
  3-external(is to create .css file and all your css style in that file)
+
+ *imp concept:
+ selectors in css:
+ if it is direct child then we can write like 
+ div >p means div ka child p us ko style karo
+ but if p is desendant then i will write like div p
