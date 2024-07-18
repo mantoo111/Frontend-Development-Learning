@@ -141,3 +141,7 @@ In HTML, entities are used to represent characters that have a special meaning i
 &amp; for the ampersand symbol (&)
 &quot; for the double quotation mark (" " ")
 &apos; for the single quotation mark (" ' ")
+ 3 ways to add CSS in html:
+ 1-inline
+ 2-internal(can be added by using <style>tag in html)
+ 3-external(is to create .css file and all your css style in that file)
