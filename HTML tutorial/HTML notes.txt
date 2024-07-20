@@ -154,6 +154,11 @@ In HTML, entities are used to represent characters that have a special meaning i
  if it is direct child then we can write like 
  div >p means div ka child p us ko style karo
  but if p is desendant then i will write like div p
+>hover:means when you take your mouse to that text or element it will be filled with color 
+syntax:
+button:hover {
+  background-color: red;
+}
 
 >margin collapse :means from which max margin that will be applied
  >box-sizing: border-box; /*this line means that content +pading+border  should be  the height value that is given above*/
