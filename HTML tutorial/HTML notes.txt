@@ -154,3 +154,6 @@ In HTML, entities are used to represent characters that have a special meaning i
  if it is direct child then we can write like 
  div >p means div ka child p us ko style karo
  but if p is desendant then i will write like div p
+
+>margin collapse :means from which max margin that will be applied
+ >box-sizing: border-box; /*this line means that content +pading+border  should be  the height value that is given above*/
