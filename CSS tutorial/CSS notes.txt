@@ -1,0 +1,52 @@
+                                            ..........CSS........
+stands for cascade style sheet
+3 ways to add CSS in html:
+ 1-inline
+ 2-internal(can be added by using <style>tag in html)
+ 3-external(is to create .css file and all your css style in that file)
+
+ *imp concept:
+ selectors in css:
+ if it is direct child then we can write like 
+ div >p means div ka child p us ko style karo
+ but if p is descendant then, i will write like div p
+>hover:means when you take your mouse to that text or element it will be filled with color 
+syntax:
+button:hover {
+  background-color: red;
+}
+
+>margin collapse :means from which max margin that will be applied
+
+ >box-sizing: border-box; /*this line means that content + padding + border  should be  the height value that is given above*/
+
+                               specificity
+ :is used when for example h1 is green red and h1 is given green color then which one will be applied is can be specified by specificity
+it is basically used when different selectors are used like in one html there is id,class,etc then which will be applied it depend on the order
+inline style>id selector>class or attribute selector>element selector>universal selector
+
+specificity example:
+
+<!--<div><h1 style="color:blue class="yellow cred cpurple">css specification</h1> </div>  style attribute and has max specificity-->
+
+<!--attribute selector:
+
+<div><h1 class="yellow cred cpurple"data-x="a">css specification</h1> </div>
+then in style tag write like
+[data-x=a]{
+background color:red
+}-->
+
+cascade algorithm:
+
+the cascade is an algo for solving conflicts where multiple css is applied to an html.that is why the text appears purple
+
+-> understanding cascade will help you to know how browser  resolves conflicts ,cascade has 4 distinct stages:
+
+1 position and  order of appearance(that is at the end will be applied)
+2 specialty
+3 origin
+4 importance( where important is written that will be applied),it can over ride inline style
+
+
+
