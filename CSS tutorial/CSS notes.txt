@@ -48,5 +48,13 @@ the cascade is an algo for solving conflicts where multiple css is applied to an
 3 origin
 4 importance( where important is written that will be applied),it can over ride inline style
 
+font sizing:
+
+em means itne guna of font-size ,default is 16px
+when i write 2em then font sze will be 32px
+
+for the concpt of em,rem etc see this link for better understanding:
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Values_and_Units
+
 
 
