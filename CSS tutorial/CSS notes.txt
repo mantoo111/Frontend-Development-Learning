@@ -56,5 +56,16 @@ when i write 2em then font sze will be 32px
 for the concpt of em,rem etc see this link for better understanding:
 https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Values_and_Units
 
+shadows and outlines in css:
+1-box shadows:
+box-shadows:h-offset v-offset blur spread color insert;
+->h-offset and v-offset :deermnes the shadow horizontal and vertical position
+->blur :the larger the value,the blurier the shadow
+->spraed: expands or shrinks the shadow size
+->color:
+->insert:makes the shadow inner
+
+outlines:are ouside the border remember this just
+
 
 
