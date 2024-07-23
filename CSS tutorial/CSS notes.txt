@@ -67,5 +67,11 @@ box-shadows:h-offset v-offset blur spread color insert;
 
 outlines:are ouside the border remember this just
 
+list styles:
+
+list consists of markers,markers are those left side dots or numbers that appers with elements
+if i write list-style-position: inside;
+then that style i apply to element will be also applied to to those markers
+
 
 
