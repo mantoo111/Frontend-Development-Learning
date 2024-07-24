@@ -79,5 +79,13 @@ when your text get out from the border2 ways to adjust it
 1-by using overflow property
 2-by setting overflow auto it means if overflow occurs then overflow will be applied
 
+position :
+1- static position :which means no chnge will occur for that particular
+2-relative position:which means you can position it from top,left right,bottom
+3-absolute position:
+->child check if its parent is positioned or not if it is positioned then position left,right,left,bottom will be applied relative to its parent
+->In the case when child  finds  that its parent is not positioned then child positioned will be applied relative to html
+
+
 
 
