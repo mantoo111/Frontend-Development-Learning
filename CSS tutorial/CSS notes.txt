@@ -74,4 +74,10 @@ if i write list-style-position: inside;
 then that style i apply to element will be also applied to to those markers
 
 
+overflow property:
+when your text get out from the border2 ways to adjust it
+1-by using overflow property
+2-by setting overflow auto it means if overflow occurs then overflow will be applied
+
+
 
