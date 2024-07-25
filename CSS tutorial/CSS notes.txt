@@ -86,6 +86,12 @@ position :
 ->child check if its parent is positioned or not if it is positioned then position left,right,left,bottom will be applied relative to its parent
 ->In the case when child  finds  that its parent is not positioned then child positioned will be applied relative to html
 
+flex:are used to display list itmes horizataly
+display:flex;
+
+css variable:
+->these variable can hold color,strings,values(px etc),or any thhing that you want to change.
+
 
 
 
