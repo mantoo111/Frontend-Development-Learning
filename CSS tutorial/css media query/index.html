@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>css media query</title>
+    <style>
+      body {
+        background-color: rgb(210, 103, 103);
+      }
+     
+      /* @media not\only mediatype and (screen){
+        css-code;}  */
+        @media screen and (orientation:landscape){
+            body{
+                border:2px solid black;
+            }
+        }
+        @media only screen and (max-width: 455px) {
+        body {
+          background-color: blue;
+        }
+      }
+        .boxes{
+            flex-direction: column;
+        }
+        .boxes{
+            display: flex;
+        }
+        .box{
+            width:344px;
+            height:344px;
+            background-color: aquamarine;
+            padding:3px;
+            margin: 3px;
+           
+
+        }
+    </style>
+  </head>
+  <body>
+    <div>hey we are going to study css media querry</div>
+    <div class="boxes">
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+    </div>
+  </body>
+</html>
