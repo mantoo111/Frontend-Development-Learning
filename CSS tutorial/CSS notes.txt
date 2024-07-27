@@ -91,6 +91,16 @@ display:flex;
 
 css variable:
 ->these variable can hold color,strings,values(px etc),or any thhing that you want to change.
+syntax:
+:eoot{
+  --color:red;
+}
+
+ clear and float:
+ float means to appaer something on right or left
+ example text float on right or left  of image
+
+ clear:means not allowing img to appear either on right oe left any where
 
 
 
