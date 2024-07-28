@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>more on css selectors</title>
+    <style>
+        /* .box:first-child{
+            background-color: antiquewhite;
+        } */
+        /* .box::first-line{
+            color: yellowgreen;
+        } */
+       /* .boxes *{        /* for selecting all we can use universal selector like this    
+            color: blue;
+            border:2px solid black;
+         } */
+       /* [data-color="primary"]{ /* attribute selector 
+            margin-top: 45px;
+            padding-top: 45px;
+         } */
+         /* p, a,.box,  [data-color="primary"]{ /* grouping 
+            margin-top: 45px;
+            padding-top: 45px;
+         } */
+          /* .box:nth-child(even){
+            background-color: blueviolet;
+          }
+          .box:nth-last-child(1){/* necha sa pala wala select ho ga
+            background-color: red;
+          } */
+           .boxes::before{
+            content: "i am good";
+            color: aquamarine;
+           }
+          ::selection{
+            color:red;
+           }
+           .box::first-letter{
+            color:purple;
+            font-size: 45px;
+           }
+           input::placeholder{
+            color:blue;
+           }
+    </style>
+</head>
+<body>
+    <div class="boxes">
+        <div data-color="primary"class="box">hey i am a box1</div>
+        <div class="box">hey i am a box2</div>
+        <div class="box">hey i am a box3</div>
+        <input type="text"placeholder="type your text here">
+    </div>
+</body>
+</html>

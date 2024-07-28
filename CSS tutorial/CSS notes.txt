@@ -102,6 +102,11 @@ syntax:
 
  clear:means not allowing img to appear either on right oe left any where
 
+ through css you can dynamicaly insert the text,
+ .boxes::before{
+  content:"ansa";
+ }
+
 
 
 
