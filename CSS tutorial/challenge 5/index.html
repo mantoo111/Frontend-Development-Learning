@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Designing a Layout</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(28, 222, 222);
+      }
+      header{
+        position: sticky;
+        top:0px;
+      }
+
+      ul {
+        text-decoration: none;
+        border: 2px solid black;
+        background-color: antiquewhite;
+        display: flex;
+        list-style: none;
+        
+      }
+      ul li {
+        padding: 16px;
+        font-size: 20px;
+      }
+      .boxes {
+        /*top and bottom*/
+        border: 2px solid white;
+        display: flex;
+        height: 150px;
+        width: 400px;
+        padding: 23px 23px;
+        background-color: blueviolet;
+      }
+      div {
+        border: 2px solid black;
+        margin: 23px;
+        background-color: aquamarine;
+        padding: 60px;
+      }
+      
+      footer {
+        border: 2px solid black;
+        background-color: brown;
+
+        margin-top: 220px;
+        padding: 18px;
+      }
+      .orange-box{
+        height:32px;
+        width:32px;
+        background-color: orange;
+        position:fixed;
+        bottom:12px;
+        rigth:23px;
+        border-radius:60px;
+      }
+     
+      .text-box p {
+        padding: 50px;
+        border:3px solid white;
+        border-radius: 13px;
+        padding: 34px;
+        margin: 0 34vw;
+        font-size: 2em;
+        background-color: rgb(161, 119, 201);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>About Us</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+    </header>
+    <div class="boxes">
+      <div>box1</div>
+      <div>box2</div>
+    </div>
+
+    <span class="text-box">
+      <p>welcome to sigma web development express</p>
+    </span>
+    <div class="orange-box"></div>
+    <footer>
+      <span>
+        <!--paragraph-->
+      </span>
+    </footer>
+  </body>
+</html>

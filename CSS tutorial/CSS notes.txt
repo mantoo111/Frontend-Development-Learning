@@ -5,6 +5,14 @@ stands for cascade style sheet
  2-internal(can be added by using <style>tag in html)
  3-external(is to create .css file and all your css style in that file)
 
+
+ padding: 10px 20px 30px 40px; /* top, right, bottom, left */
+ padding: 10px 20px; /* top & bottom, right & left */
+ padding: 10px 20px 30px; /* top, right & left, bottom */
+
+ margin: 10px 20px 30px 40px; /* top, right, bottom, left */
+  margin: 10px 20px; /* top & bottom, right & left */
+  margin: 10px 20px 30px; /* top, right & left, bottom */
  *imp concept:
  selectors in css:
  if it is direct child then we can write like 
