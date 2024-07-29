@@ -115,6 +115,32 @@ syntax:
   content:"ansa";
  }
 
+  flexbox:
+  flex direcction:row
+  flex direcction:column
+  ->container propery:these property can be applied just
+  border: 2px solid red;
+display: flex;
+height: 80vh;
+/* justify-content: center; */
+/* align-items: center;  for one line*/
+/* flex-direction:column-reverse; */
+flex-wrap: wrap;
+align-content: center;/*for multiple lines to contre*/
+/* there ia no justify items in flexbox */
+flex-flow: row wrap;/*flex direcction ,then flex*/
+gap:30px;
+column-gap: 10px;
+row-gap: 10px;/*for these two lines you can just wrte like gap:row col*/
+
+->itms property:
+order: jitna zada utna last ma hoga
+flexgrow:
+ flex-shrink:2 ;ability to shrink when the page size decreases upto 2
+
+
+
+
 
 
 

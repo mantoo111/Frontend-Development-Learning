@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <style>
+.container{
+border: 2px solid red;
+display: flex;
+height: 80vh;
+/* justify-content: center; */
+/* align-items: center;  for one line*/
+/* flex-direction:column-reverse; */
+flex-wrap: wrap;
+/* align-content: center;for multiple lines to contre */
+/* there ia no justify items in flexbox */
+flex-flow: row wrap;/*flex direcction ,then flex*/
+gap:30px;
+column-gap: 10px;
+row-gap: 10px;/*for these two lines you can just wrte like gap:row col*/
+}
+.item{
+    /* flex-grow: 1; */
+    height:62px;
+    width:62px;
+    border: 2px solid black;
+    /* margin:4px; */
+    background-color: blueviolet;
+    
+}
+.order1{
+    order: 1;
+}
+.order2{
+    order: 2;
+}
+.order3{
+    order: 3;
+}
+.item1{
+    /* flex-grow: 2; */
+    /* flex-shrink:2 ; */
+    align-self: flex-end;
+}
+.item2{
+    align-self: flex-end;
+}
+
+    </style>
+</head>
+<body>
+    <main>
+        <div class="container">
+        <div class="item item1">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <!-- <div class="item order1">4</div> -->
+        <div class="item">5</div>
+        <div class="item item2">6</div>
+        <div class="item">7</div>
+        <div class="item">8</div>
+        <div class="item">9</div>
+        <div class="item">10</div>
+        <div class="item">1</div>
+       
+       
+    </div>
+    </main>
+</body>
+</html>
