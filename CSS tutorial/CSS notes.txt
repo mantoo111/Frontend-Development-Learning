@@ -138,7 +138,17 @@ order: jitna zada utna last ma hoga
 flexgrow:
  flex-shrink:2 ;ability to shrink when the page size decreases upto 2
 
+Grid:
+in which you can tell how many rows, columns by grid-templete column 120px 100px;
 
+grid-template-rows :
+The CSS property grid-template-rows is used in the CSS Grid Layout to define the number and size of the rows in a grid container. The value 100px 100px 100px 100px specifies the height of each row in the grid.
+
+Here's what it means:
+
+The grid will have 4 rows.
+Each row will have a height of 100 pixels.
+->dont use padding in flex and grid instead use gap;
 
 
 
