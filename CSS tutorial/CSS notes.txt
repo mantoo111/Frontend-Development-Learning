@@ -151,6 +151,22 @@ Each row will have a height of 100 pixels.
 ->dont use padding in flex and grid instead use gap;
 
 
+Transform:(used to hide the nav bar)
+in css there are 2 types of Transform
+1-2D Transform:
+this property allows the content to be structured in a way like translate,rotate,scale or skew etc as it is 2D therefore the content is transformed into x and y dimensions
+syntax:
+transform:rotate(80deg);(both in x and y axis)
+transform:rotateX(78deg);along x and y axis
+transform:scale(1.6);to enlarge the box you can do along x and y axis
+transform:skew(5deg);somehow tilted can be along x and y axis but can not be in z axis remember
+transform:translate(90deg);can be for x and y axis
+trandform:origin(this is used when you want to rotate at a particular origin)
+->for all the above to be applid in just single line you can write like
+transform: translate(34%) skew(40deg) translate(45%);
+2-3D trandform:
+x,y and z axis 
+
 
 
 
