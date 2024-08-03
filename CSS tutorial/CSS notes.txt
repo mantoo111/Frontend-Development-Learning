@@ -167,6 +167,41 @@ transform: translate(34%) skew(40deg) translate(45%);
 2-3D trandform:
 x,y and z axis 
 
+Animation:
 
+for simple use transition for complex use animation or where elements are repeated  you have to apply animation for diffrent elements 
+animation:
 
+@keyframes ansaAnimation{
+            from{
+                transform:translateX(1000px)
+            }
+        }
 
+following property will be applied on box for animation;
+.box{
+        width: 34px;
+        height: 45px;
+        background-color: bisque;
+        animation: ansaAnimation;
+        animation-duration: 3s;
+        animation-iteration-count: infinite; /*or you can give time like 3*/
+        animation-timing-function: cubic-bezier(0.42, 0.09, 0, 1.05);
+        animation-delay: 11s;
+        /* animation-delay: alternate-reverse; */
+        animation-play-state: paused;
+      }
+animation syntax:
+animation:name duration timing-function delay iteration-count direction fill-mode;(for single line )
+
+The animation-fill-mode property in CSS specifies how a CSS animation should apply styles to its target before and after its execution. There are four possible values for animation-fill-mode:
+
+none: The default value. The animation will not apply any styles to the target before or after the animation is executed.
+
+forwards: After the animation ends, the target will retain the computed values set by the last keyframe encountered during execution.
+
+backwards: Before the animation starts, the target will apply the values defined in the first keyframe, during the period specified by animation-delay.
+
+both: The animation will follow the rules for both forwards and backwards, extending the properties in both directions.
+
+->css can be many like @arfanAnimation:{}...

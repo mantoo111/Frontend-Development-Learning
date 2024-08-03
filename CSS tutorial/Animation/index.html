@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>css animation</title>
+    <style>
+      .container {
+        background-color: aquamarine;
+        height: 80vh;
+        width: 30vw;
+      }
+      .box {
+        width: 34px;
+        height: 45px;
+        background-color: bisque;
+        /* animation: ansaAnimation;
+        animation-duration: 3s;
+        animation-iteration-count: infinite; /*or you can give time like 3*/
+        /* animation-timing-function: cubic-bezier(0.42, 0.09, 0, 1.05);
+        animation-delay: 11s;
+        /* animation-delay: alternate-reverse; */
+       /* animation-play-state: paused; */ 
+    /* animation: ansaAnimation 3s ease-in 3s 1 backwards; */
+    animation: ansaAnimation 3s ease-in 3s 1,
+                arfanAnimation 3s ease-in 3s 1;
+    }
+      @keyframes ansaAnimation {
+        from {
+            background-color: bisque;
+          transform: translateX(1000px);
+        }
+        to{
+            background-color: rgb(222, 132, 23);
+        }
+      }
+      @keyframes arfanAnimatiom {
+        0%{
+transform: rotate(100deg);
+        }
+        20%{
+            transform: rotate(200deg);
+        }
+        50%{
+            transform: rotate(2200deg);
+        }
+        80%{
+            transform: rotate(300deg);
+        }
+        100%{
+            transform: rotate(310deg);
+        }
+        
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">Box</div>
+    </div>
+  </body>
+</html>
