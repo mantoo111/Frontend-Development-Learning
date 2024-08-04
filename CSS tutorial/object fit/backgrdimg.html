@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css object fit </title>
+    <style>
+        .container{
+            background-image: url("https://static.vecteezy.com/system/resources/thumbnails/025/061/745/small/4k-beautiful-colorful-abstract-wallpaper-photo.jpg");
+            height:466px ;
+            width: 488px;
+            border:2px solid black ;
+            background-position: center center;
+            background-repeat: no-repeat;/*no repeat if img is small it will repeat so norepaet will cause no reapetetion*/
+       /* background-clip: ; */
+        }
+        img{
+            width: 466px;
+            height: 488px;
+             object-fit: cover;  /*cover will cover the img defined height and width*/
+            object-fit: scale-down;
+            /* object-fit: fit;  */
+            object-position: 10px 20px;
+          /* object-position: right;  where to crop from */
+            /* object-fit: contain;*/
+        } 
+    </style>
+</head>
+<body>
+    <div class="container">
+       
+
+    </div>
+</body>
+</html>
