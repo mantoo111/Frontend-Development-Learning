@@ -1,0 +1,3 @@
+                                                       JavaScript:
+including js in your code:
+ <script src="./script.js"></script>
