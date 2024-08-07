@@ -9,3 +9,11 @@ including js in your code:
  ternary->
  c= a>b?(a+b):b-a
  above statement means if a is > than b then do a+b else do b-a.
+
+ loops:
+
+ 1-for loops
+ 2-while loops
+ 3-do while loops
+ 4-for-in loops(The for...in loop is used to iterate over the properties of an object.)
+ 5-for-of loops(The for...of loop is used to iterate over iterable objects like arrays, strings, and more.)
