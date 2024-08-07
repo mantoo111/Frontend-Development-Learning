@@ -17,3 +17,10 @@ including js in your code:
  3-do while loops
  4-for-in loops(The for...in loop is used to iterate over the properties of an object.)
  5-for-of loops(The for...of loop is used to iterate over iterable objects like arrays, strings, and more.)
+
+ functions:
+
+ function greet(name) {
+    return `Hello, ${name}!`;
+}
+2-arrow function
