@@ -21,7 +21,7 @@ console.log(arr.filter(greaterthanseven))
 //Reduce:it will reduce the array into single value
 let arr2 =[1,2,3,4,5,6]
 const reduce=(a,b)=>{
-    return a*b
+    return a+b
 }
 console.log(arr2.reduce(reduce))
 let array="ANSA"
