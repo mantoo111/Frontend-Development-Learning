@@ -44,3 +44,12 @@ The for...in loop is used to iterate over the enumerable properties (keys) of an
 
 for...of Loop
 The for...of loop is used to iterate over iterable objects, such as arrays, strings, maps, sets, etc. It directly iterates over the values of the iterable object, rather than the keys or indices.
+
+DOM:(document object model)
+DOM represent the page content as html
+BOM:(browser object model)
+BOM represent adiitional obj provided by the browser for working with everything except the document
+->alter
+->confirm
+->prompt
+all are also part of BOM
