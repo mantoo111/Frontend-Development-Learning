@@ -24,3 +24,23 @@ including js in your code:
     return `Hello, ${name}!`;
 }
 2-arrow function
+
+foreach:
+
+The forEach method in JavaScript is used to execute a provided function once for each element in an array. It allows you to loop over an array and apply a function to each element without having to manually manage the loop counter or array length.
+
+Iterates over an array: It applies the given function to each element of the array.
+No return value: forEach does not return a new array; it simply executes the function on each element. If you want to create a new array with modified elements, you'd typically use methods like map.
+Callback function: The function passed to forEach receives three arguments:
+currentValue (required): The current element being processed.
+index (optional): The index of the current element.
+array (optional): The array that forEach is called on.
+
+for-in and for-of:
+
+in JavaScript, for...in and for...of are two different types of loops used to iterate over objects and iterable collections, respectively. Each has its specific use case.
+for...in Loop:
+The for...in loop is used to iterate over the enumerable properties (keys) of an object. It loops through all the keys in an object, including inherited properties (if not filtered out).
+
+for...of Loop
+The for...of loop is used to iterate over iterable objects, such as arrays, strings, maps, sets, etc. It directly iterates over the values of the iterable object, rather than the keys or indices.
