@@ -53,3 +53,23 @@ BOM represent adiitional obj provided by the browser for working with everything
 ->confirm
 ->prompt
 all are also part of BOM
+
+
+let cont=document.body.childNodes[1]
+undefined
+cont.firstElementChild
+<div class=​"box">​box1​</div>​
+cont.lastElementChild
+<div class=​"box">​box5​</div>​
+cont.lastElementChild.style.color ="green";
+'green'
+cont.lastElementChild.style.backgroundColor ="red"
+'red'
+cont.lastElementChild.parent
+undefined
+cont.lastElementChild.parentElement
+<div class=​"container">​…​</div>​
+cont.lastElementChild.parentele
+undefined
+cont.lastElementChild.parentElement.style.backgroundColor="yellow"
+'yellow'
