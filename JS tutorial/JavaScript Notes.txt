@@ -90,3 +90,6 @@ document.querySelectorAll(".box").forEach(e=>{
    e.closest(css):to  look for earest ansestor that matches the given css-selector the e itself is checked
 
    e.contains(element):return true if element B is inside element A(desendent of elementA )or when element A==element B 
+
+Array.from(boxes): Converts the HTMLCollection (which is not directly iterable) into an array, so you can use array methods like forEach.
+.forEach(e => { ... }): Iterates over each element in the boxes array.
