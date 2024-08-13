@@ -93,3 +93,48 @@ document.querySelectorAll(".box").forEach(e=>{
 
 Array.from(boxes): Converts the HTMLCollection (which is not directly iterable) into an array, so you can use array methods like forEach.
 .forEach(e => { ... }): Iterates over each element in the boxes array.
+                     Events & otheer DOM properties:
+document.querySelector(".box")
+
+document.querySelector(".box").innerHTML
+document.querySelector(".box").innerHTML//this the syntax .innerHtml you can use the following: 
+->.innerHtml:
+->.innerText;
+->.innerHtml:that is contained inside that container or box
+->.outerHtml:it includes that container plus inside that container
+->.tagName:to get the tags ,it is used to get the tags of element
+->.nodeName:is usedto get any node(text,comment etc)
+->.textContent:provide access to the text inside the element;only text,minus all tags
+->.hidden:to hide the content
+
+->>document.querySelector(".box").innerHTML="Hey i am harry"//will add this content
+
+                        Attribute method:
+                        
+document.querySelector(".box").hasAttribute("style")//means does it has style
+->.hasAttribute("style")                        
+->.getAttribute("style")//means show which style is applied
+->.setAttribute("style","display:inline")//will set the style display to flex
+->.removeAttribute("style")
+                    Data attribute:
+->.dataset
+
+                     Insertion method:
+ ->.append() append at the end of node
+ ->.prepend() insert at the begninig of node
+ ->.before()
+ ->.after(): insert after node
+ ->.replacewith() :replace node with the given node
+let cont = document.querySelector(".container")
+cont.insertAdjacent("afterend","i am under the wqarer")
+                    Insert Adjacent:
+->.afterend :insert HTML immediately after element
+.beforebegin :insert HTML immediately before element   
+.afterbegin:insert HTML into element at the begninig                             
+.beforeend:insert HTML into element at the end
+
+.remove()
+.classList
+.classList.add("")
+.classList.remove("")
+.classList.toggle("")
