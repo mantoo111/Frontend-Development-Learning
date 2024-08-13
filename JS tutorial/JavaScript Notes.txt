@@ -138,3 +138,18 @@ cont.insertAdjacent("afterend","i am under the wqarer")
 .classList.add("")
 .classList.remove("")
 .classList.toggle("")
+
+                    Events and event bubbling:
+js automatically bubbles
+
+ document.querySelector(".child").addEventListener("click",()=>{
+            alert("child was clicked")
+        })
+
+ but if you want to stop that bubbling then put e and do what ever you want
+
+ document.querySelector(".childcontainer").addEventListener("click",(e)=>{
+           e.stopPropagation()
+            alert("childcontainer was clicked")
+        })
+        we can add and remove event and add EventListener
