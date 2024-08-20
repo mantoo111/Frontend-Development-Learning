@@ -153,6 +153,12 @@ js automatically bubbles
             alert("childcontainer was clicked")
         })
         we can add and remove event and add EventListener
+
+
+ through the following we caan make synchronus into asynchronus :
+ 1-callback 
+ 2-promise 
+ 3-async await      
                             Callback function:
 it is a functions passed into another function as an argument ,which is  then invoked inside the outer function to complete an action                            
 
@@ -164,3 +170,9 @@ to solve the problem of callback hell there is a concept name promises
 is for evential completion of task it is an object in js
 
 let promise=new promise((resolve,reject)=>{})
+
+                                                Async awaits:
+always return a promise  compulsory   
+syntax:async function myfunc(){}  
+
+awaits: it pauses the execution of its surrounding async function until promise is settled
