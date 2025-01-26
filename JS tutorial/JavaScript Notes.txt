@@ -1,178 +1,26 @@
                                                        JavaScript:
 including js in your code:
  <script src="./script.js"></script>
- conditional statement:
- 1-if
- 2-if-else
- 3-if-else-if
 
- ternary->
- c= a>b?(a+b):b-a
- above statement means if a is > than b then do a+b else do b-a.
+variables:
+letters,digits,underscore& $ sign allowed
+must begin with @,$,_,or a letter
+js is case sensitive
 
- loops:
+var and let:
+var is a globally scoped while let and const are block scope
+var can be updated & redeclared witin its scope
+let can be updated but not redirected
+const can neither be updated nor be redeclared
 
- 1-for loops
- 2-while loops
- 3-do while loops
- 4-for-in loops(The for...in loop is used to iterate over the properties of an object.)
- 5-for-of loops(The for...of loop is used to iterate over iterable objects like arrays, strings, and more.)
+creating objects:
+ objects are a fundamental part of the language, used to store collections of data and more complex entities.
 
- functions:
-
- function greet(name) {
-    return `Hello, ${name}!`;
-}
-2-arrow function
-
-foreach:
-
-The forEach method in JavaScript is used to execute a provided function once for each element in an array. It allows you to loop over an array and apply a function to each element without having to manually manage the loop counter or array length.
-
-Iterates over an array: It applies the given function to each element of the array.
-No return value: forEach does not return a new array; it simply executes the function on each element. If you want to create a new array with modified elements, you'd typically use methods like map.
-Callback function: The function passed to forEach receives three arguments:
-currentValue (required): The current element being processed.
-index (optional): The index of the current element.
-array (optional): The array that forEach is called on.
-
-for-in and for-of:
-
-in JavaScript, for...in and for...of are two different types of loops used to iterate over objects and iterable collections, respectively. Each has its specific use case.
-for...in Loop:
-The for...in loop is used to iterate over the enumerable properties (keys) of an object. It loops through all the keys in an object, including inherited properties (if not filtered out).
-
-for...of Loop
-The for...of loop is used to iterate over iterable objects, such as arrays, strings, maps, sets, etc. It directly iterates over the values of the iterable object, rather than the keys or indices.
-
-DOM:(document object model)
-DOM represent the page content as html
-BOM:(browser object model)
-BOM represent adiitional obj provided by the browser for working with everything except the document
-->alter
-->confirm
-->prompt
-all are also part of BOM
-
-
-let cont=document.body.childNodes[1]
-undefined
-cont.firstElementChild
-<div class=​"box">​box1​</div>​
-cont.lastElementChild
-<div class=​"box">​box5​</div>​
-cont.lastElementChild.style.color ="green";
-'green'
-cont.lastElementChild.style.backgroundColor ="red"
-'red'
-cont.lastElementChild.parent
-undefined
-cont.lastElementChild.parentElement
-<div class=​"container">​…​</div>​
-cont.lastElementChild.parentele
-undefined
-cont.lastElementChild.parentElement.style.backgroundColor="yellow"
-'yellow'
-
-dom by id and classes:
-id is used to select the particular element
-
-document.querySelector(".box).style.backgroundColor="green//to select only top 1st box
-document.querySelectorAll(".box").forEach(e=>{
-    e.style.backgroundColor="green";
-    })//for all to be selected
-
-
-    mathches,closest&contaons method:
-
-   e.matches(css):to check if element matches the given css querySelector
-
-   e.closest(css):to  look for earest ansestor that matches the given css-selector the e itself is checked
-
-   e.contains(element):return true if element B is inside element A(desendent of elementA )or when element A==element B 
-
-Array.from(boxes): Converts the HTMLCollection (which is not directly iterable) into an array, so you can use array methods like forEach.
-.forEach(e => { ... }): Iterates over each element in the boxes array.
-                     Events & otheer DOM properties:
-document.querySelector(".box")
-
-document.querySelector(".box").innerHTML
-document.querySelector(".box").innerHTML//this the syntax .innerHtml you can use the following: 
-->.innerHtml:
-->.innerText;
-->.innerHtml:that is contained inside that container or box
-->.outerHtml:it includes that container plus inside that container
-->.tagName:to get the tags ,it is used to get the tags of element
-->.nodeName:is usedto get any node(text,comment etc)
-->.textContent:provide access to the text inside the element;only text,minus all tags
-->.hidden:to hide the content
-
-->>document.querySelector(".box").innerHTML="Hey i am harry"//will add this content
-
-                        Attribute method:
-                        
-document.querySelector(".box").hasAttribute("style")//means does it has style
-->.hasAttribute("style")                        
-->.getAttribute("style")//means show which style is applied
-->.setAttribute("style","display:inline")//will set the style display to flex
-->.removeAttribute("style")
-                    Data attribute:
-->.dataset
-
-                     Insertion method:
- ->.append() append at the end of node
- ->.prepend() insert at the begninig of node
- ->.before()
- ->.after(): insert after node
- ->.replacewith() :replace node with the given node
-let cont = document.querySelector(".container")
-cont.insertAdjacent("afterend","i am under the wqarer")
-                    Insert Adjacent:
-->.afterend :insert HTML immediately after element
-.beforebegin :insert HTML immediately before element   
-.afterbegin:insert HTML into element at the begninig                             
-.beforeend:insert HTML into element at the end
-
-.remove()
-.classList
-.classList.add("")
-.classList.remove("")
-.classList.toggle("")
-
-                    Events and event bubbling:
-js automatically bubbles
-
- document.querySelector(".child").addEventListener("click",()=>{
-            alert("child was clicked")
-        })
-
- but if you want to stop that bubbling then put e and do what ever you want
-
- document.querySelector(".childcontainer").addEventListener("click",(e)=>{
-           e.stopPropagation()
-            alert("childcontainer was clicked")
-        })
-        we can add and remove event and add EventListener
-
-
- through the following we caan make synchronus into asynchronus :
- 1-callback 
- 2-promise 
- 3-async await      
-                            Callback function:
-it is a functions passed into another function as an argument ,which is  then invoked inside the outer function to complete an action                            
-
-async awaits  are better than promise chain and it is better than callback hell
-
-->callback hell is nested callbacks stacked below one another forming a pyramid structure ,that become difficult to manage and understand 
-to solve the problem of callback hell there is a concept name promises 
-                    promises:
-is for evential completion of task it is an object in js
-
-let promise=new promise((resolve,reject)=>{})
-
-                                                Async awaits:
-always return a promise  compulsory   
-syntax:async function myfunc(){}  
-
-awaits: it pauses the execution of its surrounding async function until promise is settled
+let person = {
+    firstName: "John",
+    lastName: "Doe",
+    age: 30,
+    hobbies: ["reading", "sports"],
+    greet: function() {
+        console.log("Hello!");
+    }
