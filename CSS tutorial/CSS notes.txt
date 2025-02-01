@@ -5,6 +5,8 @@ stands for cascade style sheet
  2-internal(can be added by using <style>tag in html)
  3-external(is to create .css file and all your css style in that file)
 
+*align-items=	Aligns items vertically
+justify-content	Aligns items horizontally*
 
  padding: 10px 20px 30px 40px; /* top, right, bottom, left */
  padding: 10px 20px; /* top & bottom, right & left */
